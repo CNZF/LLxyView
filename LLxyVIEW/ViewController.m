@@ -6,9 +6,9 @@
 //  Copyright © 2019年 lxy. All rights reserved.
 //
 
-#import <ModuleBViewController.h>
+
 #import "ViewController.h"
-#import <ModuleAViewController.h>
+
 
 @interface ViewController ()
 
@@ -23,8 +23,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
-    ModuleBViewController * moduleB = [[ModuleBViewController alloc] init];
-    [self presentViewController:moduleB animated:YES completion:nil];
+   
 }
 
 @end

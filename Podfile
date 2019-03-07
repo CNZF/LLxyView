@@ -4,5 +4,6 @@
 target 'LLxyVIEW' do
 
   pod 'LLXYCategory', :path => './'
+  pod 'CTMediator'
 
 end
