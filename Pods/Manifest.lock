@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 8bdb1a7afdbf9ae5ef4e89b15d8b638ccfafcb37
+PODS:
+  - LLXYCategory (1.0.1)
+
+DEPENDENCIES:
+  - LLXYCategory (from `./`)
+
+EXTERNAL SOURCES:
+  LLXYCategory:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  LLXYCategory: c2430b9f3593793ea19277ed7cb178138c35d82f
+
+PODFILE CHECKSUM: 5c935cb34e2a5baeb859c3d9d3b47c5615143731
 
 COCOAPODS: 1.7.0.beta.1

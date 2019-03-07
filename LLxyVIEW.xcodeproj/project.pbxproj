@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,9 +15,7 @@
 		8981AB1C2230C6DC00741E27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8981AB1B2230C6DC00741E27 /* main.m */; };
 		8981AB262230C6DD00741E27 /* LLxyVIEWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8981AB252230C6DD00741E27 /* LLxyVIEWTests.m */; };
 		8981AB312230C6DD00741E27 /* LLxyVIEWUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8981AB302230C6DD00741E27 /* LLxyVIEWUITests.m */; };
-		BE1115FC2E715287DFD89F21 /* Pods_LLxyVIEWTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F64E146C97B31DEC8ECFF32 /* Pods_LLxyVIEWTests.framework */; };
-		EC0F0B9A0296FA319399D356 /* Pods_LLxyVIEWUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54A858EB59A8FE2732FDB56 /* Pods_LLxyVIEWUITests.framework */; };
-		F17264F6213FC68E23798F04 /* Pods_LLxyVIEW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C36E5481F17792C93BEBAB /* Pods_LLxyVIEW.framework */; };
+		B4CDF5337E34BDFFDF1841D0 /* libPods-LLxyVIEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B37A96AC999B0ECEE84052DC /* libPods-LLxyVIEW.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03C36E5481F17792C93BEBAB /* Pods_LLxyVIEW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLxyVIEW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0234FC9B3311C19A5BC311 /* Pods-LLxyVIEW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLxyVIEW.release.xcconfig"; path = "Target Support Files/Pods-LLxyVIEW/Pods-LLxyVIEW.release.xcconfig"; sourceTree = "<group>"; };
 		8981AB092230C6DB00741E27 /* LLxyVIEW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLxyVIEW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8981AB0C2230C6DB00741E27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,12 +54,9 @@
 		8981AB302230C6DD00741E27 /* LLxyVIEWUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLxyVIEWUITests.m; sourceTree = "<group>"; };
 		8981AB322230C6DD00741E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F64E146C97B31DEC8ECFF32 /* Pods_LLxyVIEWTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLxyVIEWTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F93C30219CA3A4103DB7EFF /* Pods-LLxyVIEWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLxyVIEWTests.release.xcconfig"; path = "Target Support Files/Pods-LLxyVIEWTests/Pods-LLxyVIEWTests.release.xcconfig"; sourceTree = "<group>"; };
 		AD149C26AC28CE8CABEFC2AB /* Pods-LLxyVIEW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLxyVIEW.debug.xcconfig"; path = "Target Support Files/Pods-LLxyVIEW/Pods-LLxyVIEW.debug.xcconfig"; sourceTree = "<group>"; };
-		B1B45B3C997F0A4B9C24C3F3 /* Pods-LLxyVIEWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLxyVIEWTests.debug.xcconfig"; path = "Target Support Files/Pods-LLxyVIEWTests/Pods-LLxyVIEWTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B37A96AC999B0ECEE84052DC /* libPods-LLxyVIEW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLxyVIEW.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54A858EB59A8FE2732FDB56 /* Pods_LLxyVIEWUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLxyVIEWUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C222FE5C497C88A53BB2D316 /* Pods-LLxyVIEWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLxyVIEWUITests.debug.xcconfig"; path = "Target Support Files/Pods-LLxyVIEWUITests/Pods-LLxyVIEWUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D0DC5F45F28C438BD4A9CF26 /* Pods-LLxyVIEWUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLxyVIEWUITests.release.xcconfig"; path = "Target Support Files/Pods-LLxyVIEWUITests/Pods-LLxyVIEWUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F17264F6213FC68E23798F04 /* Pods_LLxyVIEW.framework in Frameworks */,
+				B4CDF5337E34BDFFDF1841D0 /* libPods-LLxyVIEW.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE1115FC2E715287DFD89F21 /* Pods_LLxyVIEWTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +79,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC0F0B9A0296FA319399D356 /* Pods_LLxyVIEWUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,21 +146,16 @@
 			children = (
 				AD149C26AC28CE8CABEFC2AB /* Pods-LLxyVIEW.debug.xcconfig */,
 				3D0234FC9B3311C19A5BC311 /* Pods-LLxyVIEW.release.xcconfig */,
-				B1B45B3C997F0A4B9C24C3F3 /* Pods-LLxyVIEWTests.debug.xcconfig */,
-				9F93C30219CA3A4103DB7EFF /* Pods-LLxyVIEWTests.release.xcconfig */,
-				C222FE5C497C88A53BB2D316 /* Pods-LLxyVIEWUITests.debug.xcconfig */,
-				D0DC5F45F28C438BD4A9CF26 /* Pods-LLxyVIEWUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		A7E01A2D4BB7ABB99DB817B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				03C36E5481F17792C93BEBAB /* Pods_LLxyVIEW.framework */,
 				9F64E146C97B31DEC8ECFF32 /* Pods_LLxyVIEWTests.framework */,
 				B54A858EB59A8FE2732FDB56 /* Pods_LLxyVIEWUITests.framework */,
+				B37A96AC999B0ECEE84052DC /* libPods-LLxyVIEW.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -184,6 +171,7 @@
 				8981AB052230C6DB00741E27 /* Sources */,
 				8981AB062230C6DB00741E27 /* Frameworks */,
 				8981AB072230C6DB00741E27 /* Resources */,
+				EEE5BA5495B96230317EF606 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,7 +186,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8981AB382230C6DD00741E27 /* Build configuration list for PBXNativeTarget "LLxyVIEWTests" */;
 			buildPhases = (
-				8CAFB0B9F1A660A70AC7161C /* [CP] Check Pods Manifest.lock */,
 				8981AB1D2230C6DC00741E27 /* Sources */,
 				8981AB1E2230C6DC00741E27 /* Frameworks */,
 				8981AB1F2230C6DC00741E27 /* Resources */,
@@ -217,7 +204,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8981AB3B2230C6DD00741E27 /* Build configuration list for PBXNativeTarget "LLxyVIEWUITests" */;
 			buildPhases = (
-				EE6D86AEAF67AB09DABC31C0 /* [CP] Check Pods Manifest.lock */,
 				8981AB282230C6DD00741E27 /* Sources */,
 				8981AB292230C6DD00741E27 /* Frameworks */,
 				8981AB2A2230C6DD00741E27 /* Resources */,
@@ -324,48 +310,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8CAFB0B9F1A660A70AC7161C /* [CP] Check Pods Manifest.lock */ = {
+		EEE5BA5495B96230317EF606 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LLxyVIEW/Pods-LLxyVIEW-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LLxyVIEWTests-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-LLxyVIEW/Pods-LLxyVIEW-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EE6D86AEAF67AB09DABC31C0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LLxyVIEWUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LLxyVIEW/Pods-LLxyVIEW-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -584,7 +543,6 @@
 		};
 		8981AB392230C6DD00741E27 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1B45B3C997F0A4B9C24C3F3 /* Pods-LLxyVIEWTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -604,7 +562,6 @@
 		};
 		8981AB3A2230C6DD00741E27 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F93C30219CA3A4103DB7EFF /* Pods-LLxyVIEWTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -624,7 +581,6 @@
 		};
 		8981AB3C2230C6DD00741E27 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C222FE5C497C88A53BB2D316 /* Pods-LLxyVIEWUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 854DEH8T28;
@@ -643,7 +599,6 @@
 		};
 		8981AB3D2230C6DD00741E27 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0DC5F45F28C438BD4A9CF26 /* Pods-LLxyVIEWUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 854DEH8T28;

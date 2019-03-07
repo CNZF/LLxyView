@@ -3,277 +3,316 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4CF096EB7F91712FD7A6789BC34BFB59 /* Pods-LLxyVIEWUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 873CD6ACB7AB438EBB97D734BAD58A64 /* Pods-LLxyVIEWUITests-dummy.m */; };
-		55C3578F94735E84DBC3FE1E40B8CA64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		5FD607017096FB674676F694F3F68473 /* Pods-LLxyVIEWTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFC48C30962608B0FB8B36081ACCF05 /* Pods-LLxyVIEWTests-dummy.m */; };
-		9C6F69FC55454A8AC6155ECFF9C60D5F /* Pods-LLxyVIEWTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B83D7637DFA5A8A1080509E65A251BAB /* Pods-LLxyVIEWTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E98FDD21E2132C177B1D083F90573D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		A76F2D636D159D9F92098DC9547E54D1 /* Pods-LLxyVIEWUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B48AF676C72EF99C10ADF607D99F9659 /* Pods-LLxyVIEWUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4B17A5A7F93B39B485C3BB89C4C9703 /* Pods-LLxyVIEW-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27EFF5AB28BA69AE265E9ED265AA0377 /* Pods-LLxyVIEW-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAE097EFDFC55BFF327FDA33B9D5B36E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		F06C82747A4F4AFBB35900108DAB13CC /* Pods-LLxyVIEW-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFD4BC08CD8830A7B1DCD406793E8AA /* Pods-LLxyVIEW-dummy.m */; };
+		0F7A6F64F8EA6A247DF4400273C8F215 /* NSString+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADA374E9F31A8544EB21FBD94287B11 /* NSString+Color.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		44AEBF3F129B6627BB6B2CE676D93AAC /* ModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DFC17A1160A54F3B51C5B8B58F6758 /* ModuleBViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		777CAE9D48FDC573EE632C4CD07C7269 /* ModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B87EDA0C4DA497C7C694D652D2ECB4 /* ModuleAViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A3481E6B4EBFB0661B6B205818EFDE02 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = BEB8E6EE17CC98693F7BCDD3E6B31F5D /* Base.lproj */; };
+		B41E2E4E3DFC1CA021550D17AF781288 /* NSString+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = A30D3D6FCE0E9ADEDFF31941FC4D39D6 /* NSString+Color.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B98D9940BB2B9B9C96EF573BB18FC891 /* ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 53781A7BC3E8D1DA95B8B152988D80BD /* ModuleA.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C3720DAF2219DF388D21BDEDDC76A3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02A95BC918BE837DB5E92430B1290701 /* Assets.xcassets */; };
+		E155D23F621399BBA3CD995A5617D447 /* Pods-LLxyVIEW-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C3B1CBA99D1D50A4D956669365E772 /* Pods-LLxyVIEW-dummy.m */; };
+		E16F0BE50FA8C73D6DC7E6CE830DA2FB /* ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A8EAB22A06B62DD76992F6154501380 /* ModuleA.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDA31D4020E49AF0B35AD33D1E9B184B /* ModuleAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F94EEDE68025D65E11A85ABB2B3AD98 /* ModuleAViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EDD958A9256003EC50FBD31A21F6EADB /* LLXYCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A010479F111C38E9A3610595063413 /* LLXYCategory-dummy.m */; };
+		F440E228F318A3537021566A9B168A19 /* ModuleBViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FB6E4B7B50B456BDC8B1C7234457A76C /* ModuleBViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B16999D886CB9E9E7A5E7568A7CC874F /* PBXContainerItemProxy */ = {
+		3DEADC42EE3D1A937DDEBF01C39B54D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EBEFE3C946B09A6A51640904505B9C5C;
-			remoteInfo = "Pods-LLxyVIEW";
+			remoteGlobalIDString = FB8DBA4C01AA6AE75B71B8841D78EF32;
+			remoteInfo = "LLXYCategory-ZZBundle";
 		};
-		BBF22BC34CE070BA1C4DAECE0677DA1A /* PBXContainerItemProxy */ = {
+		810003952F8F3B0344E249D9E3F296D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EBEFE3C946B09A6A51640904505B9C5C;
-			remoteInfo = "Pods-LLxyVIEW";
+			remoteGlobalIDString = E625C82B20479405574D296FC4FB4DE3;
+			remoteInfo = LLXYCategory;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B3CCBF274BA1DD98E3EA21C3507B3DB /* Pods-LLxyVIEW-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLxyVIEW-acknowledgements.plist"; sourceTree = "<group>"; };
-		0BA2D139196A250E35ADD5B585DAF2B3 /* Pods-LLxyVIEWTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLxyVIEWTests.release.xcconfig"; sourceTree = "<group>"; };
-		1B70EB0C230BF5D6D5B459F7C5966A15 /* Pods-LLxyVIEWUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLxyVIEWUITests-Info.plist"; sourceTree = "<group>"; };
-		27EFF5AB28BA69AE265E9ED265AA0377 /* Pods-LLxyVIEW-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLxyVIEW-umbrella.h"; sourceTree = "<group>"; };
-		284E218E4376DD3E06815BFF7A0CCE5D /* Pods-LLxyVIEWTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLxyVIEWTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2DA7BA3A5C3165592287D754C518BD06 /* Pods-LLxyVIEW-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLxyVIEW-Info.plist"; sourceTree = "<group>"; };
-		4FE41CF5B675F93E7D7395342DE4CAB3 /* Pods-LLxyVIEW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLxyVIEW.release.xcconfig"; sourceTree = "<group>"; };
-		532BCE4DF1288934C0194FA08366EFFF /* Pods-LLxyVIEWUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLxyVIEWUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		592016063E1BB8CEAFA4C8438C2C1DB8 /* Pods-LLxyVIEWUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLxyVIEWUITests.modulemap"; sourceTree = "<group>"; };
-		5FEBF241F605D5042EB5AC25CFDC1FD8 /* Pods-LLxyVIEW.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLxyVIEW.modulemap"; sourceTree = "<group>"; };
-		6737A38EF9233C934A6BE0F95C2556F7 /* Pods-LLxyVIEWUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLxyVIEWUITests.release.xcconfig"; sourceTree = "<group>"; };
-		69404CF5FAE85B0C31CCD103F06F28AA /* Pods-LLxyVIEWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLxyVIEWUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7090F069E6A066AC4D16ACC3DE895C97 /* Pods-LLxyVIEWUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLxyVIEWUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		73C975B9BCBA5D9B6399D0B05E3F0AE8 /* Pods_LLxyVIEW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLxyVIEW.framework; path = "Pods-LLxyVIEW.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EFC48C30962608B0FB8B36081ACCF05 /* Pods-LLxyVIEWTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLxyVIEWTests-dummy.m"; sourceTree = "<group>"; };
-		873CD6ACB7AB438EBB97D734BAD58A64 /* Pods-LLxyVIEWUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLxyVIEWUITests-dummy.m"; sourceTree = "<group>"; };
+		02A95BC918BE837DB5E92430B1290701 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05C3B1CBA99D1D50A4D956669365E772 /* Pods-LLxyVIEW-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLxyVIEW-dummy.m"; sourceTree = "<group>"; };
+		0ADA374E9F31A8544EB21FBD94287B11 /* NSString+Color.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Color.m"; path = "LLxyVIEW/LLXYCategory/NSString+Color.m"; sourceTree = "<group>"; };
+		1F260F16D7A643D41B1D7BD3A2B7C5FB /* libPods-LLxyVIEW.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LLxyVIEW.a"; path = "libPods-LLxyVIEW.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		277C4FB4863941687B6F07A180383688 /* Pods-LLxyVIEW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLxyVIEW.release.xcconfig"; sourceTree = "<group>"; };
+		2A8EAB22A06B62DD76992F6154501380 /* ModuleA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleA.h; sourceTree = "<group>"; };
+		43EB9602AE8D94E62ADC60F15B389FFE /* ZZBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZZBundle.bundle; path = "LLXYCategory-ZZBundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B87EDA0C4DA497C7C694D652D2ECB4 /* ModuleAViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleAViewController.m; sourceTree = "<group>"; };
+		4F11B16DE465304945CA3EB7BEED1075 /* ResourceBundle-ZZBundle-LLXYCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZZBundle-LLXYCategory-Info.plist"; sourceTree = "<group>"; };
+		53781A7BC3E8D1DA95B8B152988D80BD /* ModuleA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleA.m; sourceTree = "<group>"; };
+		7F74B1D9FA9B94FD1FF6A42D608CC835 /* LLXYCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLXYCategory-prefix.pch"; sourceTree = "<group>"; };
+		8E4586AB9247B55F6F5AB42B0388FF40 /* LLXYCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLXYCategory.xcconfig; sourceTree = "<group>"; };
+		8F94EEDE68025D65E11A85ABB2B3AD98 /* ModuleAViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleAViewController.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2BEB3A6EAB1955BF588A5B0C3C062D1 /* Pods-LLxyVIEWTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLxyVIEWTests.modulemap"; sourceTree = "<group>"; };
-		B3A57E6BDF93FF8A86D6C6F22B161AC2 /* Pods_LLxyVIEWUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLxyVIEWUITests.framework; path = "Pods-LLxyVIEWUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B48AF676C72EF99C10ADF607D99F9659 /* Pods-LLxyVIEWUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLxyVIEWUITests-umbrella.h"; sourceTree = "<group>"; };
-		B83D7637DFA5A8A1080509E65A251BAB /* Pods-LLxyVIEWTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLxyVIEWTests-umbrella.h"; sourceTree = "<group>"; };
-		CAE1B6EEBB2DF775B50DCAA3CE0002A0 /* Pods-LLxyVIEWTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLxyVIEWTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CBE36EA4ED24A4ABD610A1A035B2088D /* Pods-LLxyVIEW-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLxyVIEW-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D8F187F2C88D37BB87F4BB92C9580349 /* Pods-LLxyVIEWTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLxyVIEWTests-Info.plist"; sourceTree = "<group>"; };
-		D9402EA1C4BCFBCEBD0F2E3A5FF163BE /* Pods_LLxyVIEWTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLxyVIEWTests.framework; path = "Pods-LLxyVIEWTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE6FBC1FFC7331F27030FEEFEABB93A4 /* Pods-LLxyVIEW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLxyVIEW.debug.xcconfig"; sourceTree = "<group>"; };
-		EA2548440E83280AF60B48099179E87B /* Pods-LLxyVIEWTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLxyVIEWTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FBFD4BC08CD8830A7B1DCD406793E8AA /* Pods-LLxyVIEW-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLxyVIEW-dummy.m"; sourceTree = "<group>"; };
+		A30D3D6FCE0E9ADEDFF31941FC4D39D6 /* NSString+Color.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Color.h"; path = "LLxyVIEW/LLXYCategory/NSString+Color.h"; sourceTree = "<group>"; };
+		B2A010479F111C38E9A3610595063413 /* LLXYCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLXYCategory-dummy.m"; sourceTree = "<group>"; };
+		B71C42BC6266891050229C702CCD783A /* Pods-LLxyVIEW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLxyVIEW.debug.xcconfig"; sourceTree = "<group>"; };
+		BCD6D55408F5D5D1E1EF3AF55F9A0975 /* libLLXYCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLLXYCategory.a; path = libLLXYCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB8E6EE17CC98693F7BCDD3E6B31F5D /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = LLxyVIEW/Base.lproj; sourceTree = "<group>"; };
+		C374241065DB6A7F7F42CF04F7DB70B7 /* Pods-LLxyVIEW-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLxyVIEW-acknowledgements.plist"; sourceTree = "<group>"; };
+		C42FF5A2EAAD13812C523CA6222B3932 /* LLXYCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LLXYCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E2DFC17A1160A54F3B51C5B8B58F6758 /* ModuleBViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ModuleBViewController.m; sourceTree = "<group>"; };
+		E761F29B1B987E085D59C10494DCCB40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E915D3A6977E08E6916618D82A7D4333 /* Pods-LLxyVIEW-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLxyVIEW-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6727F532EFB3D7ADB909D820C4127C3 /* Pods-LLxyVIEW-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LLxyVIEW-resources.sh"; sourceTree = "<group>"; };
+		FB6E4B7B50B456BDC8B1C7234457A76C /* ModuleBViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ModuleBViewController.h; sourceTree = "<group>"; };
+		FCF9C994BB894102C2C6D52DF3D93E7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A64A73DE0028AB975233C46FB740E85 /* Frameworks */ = {
+		532AD12A3ADD683A03B4B5D70710F41F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAE097EFDFC55BFF327FDA33B9D5B36E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		509150E263DC69209F692BAF2177FD33 /* Frameworks */ = {
+		D788F18B7A2565D0344B310F3AEBF528 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55C3578F94735E84DBC3FE1E40B8CA64 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		697F6D2763CD6D5288EACB89BD7E6228 /* Frameworks */ = {
+		F4E7BAD3C2B31B2EBE811A9AE7AF4107 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E98FDD21E2132C177B1D083F90573D3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A5168DC1C943643E6A3FABEE329215C /* Pods-LLxyVIEW */ = {
+		00CFC5265AA8057C409884DC895E4B7F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5FEBF241F605D5042EB5AC25CFDC1FD8 /* Pods-LLxyVIEW.modulemap */,
-				CBE36EA4ED24A4ABD610A1A035B2088D /* Pods-LLxyVIEW-acknowledgements.markdown */,
-				0B3CCBF274BA1DD98E3EA21C3507B3DB /* Pods-LLxyVIEW-acknowledgements.plist */,
-				FBFD4BC08CD8830A7B1DCD406793E8AA /* Pods-LLxyVIEW-dummy.m */,
-				2DA7BA3A5C3165592287D754C518BD06 /* Pods-LLxyVIEW-Info.plist */,
-				27EFF5AB28BA69AE265E9ED265AA0377 /* Pods-LLxyVIEW-umbrella.h */,
-				DE6FBC1FFC7331F27030FEEFEABB93A4 /* Pods-LLxyVIEW.debug.xcconfig */,
-				4FE41CF5B675F93E7D7395342DE4CAB3 /* Pods-LLxyVIEW.release.xcconfig */,
+				B22973E5040D916017EA88E278F6A8A1 /* Pods-LLxyVIEW */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		14E1F33B9974F50DE8A23EDC025D8A36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A8EAB22A06B62DD76992F6154501380 /* ModuleA.h */,
+				53781A7BC3E8D1DA95B8B152988D80BD /* ModuleA.m */,
+			);
+			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17A5BDAE285B5FF6E9EC5600AEEBA316 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD6D55408F5D5D1E1EF3AF55F9A0975 /* libLLXYCategory.a */,
+				1F260F16D7A643D41B1D7BD3A2B7C5FB /* libPods-LLxyVIEW.a */,
+				43EB9602AE8D94E62ADC60F15B389FFE /* ZZBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		248F2ADACE2442CD454D01A61149B4C7 /* LLXYCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A30D3D6FCE0E9ADEDFF31941FC4D39D6 /* NSString+Color.h */,
+				0ADA374E9F31A8544EB21FBD94287B11 /* NSString+Color.m */,
+				EB68DB66CF0EB280B2F9F42B02AB9682 /* Classes */,
+				B4B57301918BEE8BCFE177BE2A56E157 /* Pod */,
+				ADE9AE3D7616292762EEB45F72D52EDC /* Resources */,
+				FF58792EF97B8CEC3981AB2FB47B6729 /* Support Files */,
+			);
+			name = LLXYCategory;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		49BC12DEF5C819CA957C7F8A672BDE93 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				248F2ADACE2442CD454D01A61149B4C7 /* LLXYCategory */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6070841CCE3DA931364CD41F7A1DC4F8 /* LLXYCategory */ = {
+			isa = PBXGroup;
+			children = (
+				02A95BC918BE837DB5E92430B1290701 /* Assets.xcassets */,
+			);
+			name = LLXYCategory;
+			path = LLxyVIEW/LLXYCategory;
+			sourceTree = "<group>";
+		};
+		ADE9AE3D7616292762EEB45F72D52EDC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BEB8E6EE17CC98693F7BCDD3E6B31F5D /* Base.lproj */,
+				6070841CCE3DA931364CD41F7A1DC4F8 /* LLXYCategory */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B22973E5040D916017EA88E278F6A8A1 /* Pods-LLxyVIEW */ = {
+			isa = PBXGroup;
+			children = (
+				E915D3A6977E08E6916618D82A7D4333 /* Pods-LLxyVIEW-acknowledgements.markdown */,
+				C374241065DB6A7F7F42CF04F7DB70B7 /* Pods-LLxyVIEW-acknowledgements.plist */,
+				05C3B1CBA99D1D50A4D956669365E772 /* Pods-LLxyVIEW-dummy.m */,
+				F6727F532EFB3D7ADB909D820C4127C3 /* Pods-LLxyVIEW-resources.sh */,
+				B71C42BC6266891050229C702CCD783A /* Pods-LLxyVIEW.debug.xcconfig */,
+				277C4FB4863941687B6F07A180383688 /* Pods-LLxyVIEW.release.xcconfig */,
 			);
 			name = "Pods-LLxyVIEW";
 			path = "Target Support Files/Pods-LLxyVIEW";
 			sourceTree = "<group>";
 		};
-		69B7EFD9916DDC7BB9C7E5B4B5FB168F /* Pods-LLxyVIEWUITests */ = {
+		B4B57301918BEE8BCFE177BE2A56E157 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				592016063E1BB8CEAFA4C8438C2C1DB8 /* Pods-LLxyVIEWUITests.modulemap */,
-				532BCE4DF1288934C0194FA08366EFFF /* Pods-LLxyVIEWUITests-acknowledgements.markdown */,
-				7090F069E6A066AC4D16ACC3DE895C97 /* Pods-LLxyVIEWUITests-acknowledgements.plist */,
-				873CD6ACB7AB438EBB97D734BAD58A64 /* Pods-LLxyVIEWUITests-dummy.m */,
-				1B70EB0C230BF5D6D5B459F7C5966A15 /* Pods-LLxyVIEWUITests-Info.plist */,
-				B48AF676C72EF99C10ADF607D99F9659 /* Pods-LLxyVIEWUITests-umbrella.h */,
-				69404CF5FAE85B0C31CCD103F06F28AA /* Pods-LLxyVIEWUITests.debug.xcconfig */,
-				6737A38EF9233C934A6BE0F95C2556F7 /* Pods-LLxyVIEWUITests.release.xcconfig */,
+				FCF9C994BB894102C2C6D52DF3D93E7C /* LICENSE */,
+				C42FF5A2EAAD13812C523CA6222B3932 /* LLXYCategory.podspec */,
+				E761F29B1B987E085D59C10494DCCB40 /* README.md */,
 			);
-			name = "Pods-LLxyVIEWUITests";
-			path = "Target Support Files/Pods-LLxyVIEWUITests";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		B8C8FD8E81B199AAE374F59F2DC5123E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				8F94EEDE68025D65E11A85ABB2B3AD98 /* ModuleAViewController.h */,
+				44B87EDA0C4DA497C7C694D652D2ECB4 /* ModuleAViewController.m */,
+				FB6E4B7B50B456BDC8B1C7234457A76C /* ModuleBViewController.h */,
+				E2DFC17A1160A54F3B51C5B8B58F6758 /* ModuleBViewController.m */,
 			);
-			name = iOS;
+			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				EF6CCB120AC20059D543D2C3E62ABDB7 /* Products */,
-				E930E14B64420AB40D53690A14BBA579 /* Targets Support Files */,
+				49BC12DEF5C819CA957C7F8A672BDE93 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				17A5BDAE285B5FF6E9EC5600AEEBA316 /* Products */,
+				00CFC5265AA8057C409884DC895E4B7F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D3AE5EE320E2C262D6000DF058F29C27 /* Pods-LLxyVIEWTests */ = {
+		EB68DB66CF0EB280B2F9F42B02AB9682 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A2BEB3A6EAB1955BF588A5B0C3C062D1 /* Pods-LLxyVIEWTests.modulemap */,
-				EA2548440E83280AF60B48099179E87B /* Pods-LLxyVIEWTests-acknowledgements.markdown */,
-				CAE1B6EEBB2DF775B50DCAA3CE0002A0 /* Pods-LLxyVIEWTests-acknowledgements.plist */,
-				7EFC48C30962608B0FB8B36081ACCF05 /* Pods-LLxyVIEWTests-dummy.m */,
-				D8F187F2C88D37BB87F4BB92C9580349 /* Pods-LLxyVIEWTests-Info.plist */,
-				B83D7637DFA5A8A1080509E65A251BAB /* Pods-LLxyVIEWTests-umbrella.h */,
-				284E218E4376DD3E06815BFF7A0CCE5D /* Pods-LLxyVIEWTests.debug.xcconfig */,
-				0BA2D139196A250E35ADD5B585DAF2B3 /* Pods-LLxyVIEWTests.release.xcconfig */,
+				B8C8FD8E81B199AAE374F59F2DC5123E /* Controller */,
+				14E1F33B9974F50DE8A23EDC025D8A36 /* Model */,
 			);
-			name = "Pods-LLxyVIEWTests";
-			path = "Target Support Files/Pods-LLxyVIEWTests";
+			name = Classes;
+			path = LLxyVIEW/LLXYCategory/Classes;
 			sourceTree = "<group>";
 		};
-		E930E14B64420AB40D53690A14BBA579 /* Targets Support Files */ = {
+		FF58792EF97B8CEC3981AB2FB47B6729 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A5168DC1C943643E6A3FABEE329215C /* Pods-LLxyVIEW */,
-				D3AE5EE320E2C262D6000DF058F29C27 /* Pods-LLxyVIEWTests */,
-				69B7EFD9916DDC7BB9C7E5B4B5FB168F /* Pods-LLxyVIEWUITests */,
+				8E4586AB9247B55F6F5AB42B0388FF40 /* LLXYCategory.xcconfig */,
+				B2A010479F111C38E9A3610595063413 /* LLXYCategory-dummy.m */,
+				7F74B1D9FA9B94FD1FF6A42D608CC835 /* LLXYCategory-prefix.pch */,
+				4F11B16DE465304945CA3EB7BEED1075 /* ResourceBundle-ZZBundle-LLXYCategory-Info.plist */,
 			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		EF6CCB120AC20059D543D2C3E62ABDB7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				73C975B9BCBA5D9B6399D0B05E3F0AE8 /* Pods_LLxyVIEW.framework */,
-				D9402EA1C4BCFBCEBD0F2E3A5FF163BE /* Pods_LLxyVIEWTests.framework */,
-				B3A57E6BDF93FF8A86D6C6F22B161AC2 /* Pods_LLxyVIEWUITests.framework */,
-			);
-			name = Products;
+			name = "Support Files";
+			path = "Pods/Target Support Files/LLXYCategory";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4989012690FF7925EAEF67F997608B7C /* Headers */ = {
+		2A519DE456652BEA424360E2CCA87FF5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4B17A5A7F93B39B485C3BB89C4C9703 /* Pods-LLxyVIEW-umbrella.h in Headers */,
+				E16F0BE50FA8C73D6DC7E6CE830DA2FB /* ModuleA.h in Headers */,
+				EDA31D4020E49AF0B35AD33D1E9B184B /* ModuleAViewController.h in Headers */,
+				F440E228F318A3537021566A9B168A19 /* ModuleBViewController.h in Headers */,
+				B41E2E4E3DFC1CA021550D17AF781288 /* NSString+Color.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFEA2BBD878C46CED3427C5838B252C3 /* Headers */ = {
+		CEF6E9EA8953D613B454B1F77CACE174 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C6F69FC55454A8AC6155ECFF9C60D5F /* Pods-LLxyVIEWTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E039FC009BF952EB5C349FA367DF15B7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A76F2D636D159D9F92098DC9547E54D1 /* Pods-LLxyVIEWUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5304EE1551BA78569363CD81484F126A /* Pods-LLxyVIEWTests */ = {
+		E625C82B20479405574D296FC4FB4DE3 /* LLXYCategory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCADB2C8B59704F576B76361CC2F50A3 /* Build configuration list for PBXNativeTarget "Pods-LLxyVIEWTests" */;
+			buildConfigurationList = D333D755EF0F9E58388BF1BAF045D38B /* Build configuration list for PBXNativeTarget "LLXYCategory" */;
 			buildPhases = (
-				BFEA2BBD878C46CED3427C5838B252C3 /* Headers */,
-				5D5BFF5473F4F2E16BC4FC9D524FEABC /* Sources */,
-				0A64A73DE0028AB975233C46FB740E85 /* Frameworks */,
-				ACD5C2ABC3AF498A9E341A6E2B737EDB /* Resources */,
+				2A519DE456652BEA424360E2CCA87FF5 /* Headers */,
+				5338BC11D5D3C1B3A51A6967720CF523 /* Sources */,
+				D788F18B7A2565D0344B310F3AEBF528 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4B0EF33A1F67A0CB63010372A102EF29 /* PBXTargetDependency */,
+				F6128384A9BE70D3865D21311EFF6B20 /* PBXTargetDependency */,
 			);
-			name = "Pods-LLxyVIEWTests";
-			productName = "Pods-LLxyVIEWTests";
-			productReference = D9402EA1C4BCFBCEBD0F2E3A5FF163BE /* Pods_LLxyVIEWTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DA9A7F59C7EEC29E2E19AFB8714CFA18 /* Pods-LLxyVIEWUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E5EFF5A34E76B56997D324EBC2E5DCE7 /* Build configuration list for PBXNativeTarget "Pods-LLxyVIEWUITests" */;
-			buildPhases = (
-				E039FC009BF952EB5C349FA367DF15B7 /* Headers */,
-				D5225D98D8A1A93D085D782AB0E2EEF4 /* Sources */,
-				697F6D2763CD6D5288EACB89BD7E6228 /* Frameworks */,
-				249A8BB144D0227709EAD510DCC9912C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F8B258F60B47398FFA7D7DD7E1ADBF7B /* PBXTargetDependency */,
-			);
-			name = "Pods-LLxyVIEWUITests";
-			productName = "Pods-LLxyVIEWUITests";
-			productReference = B3A57E6BDF93FF8A86D6C6F22B161AC2 /* Pods_LLxyVIEWUITests.framework */;
-			productType = "com.apple.product-type.framework";
+			name = LLXYCategory;
+			productName = LLXYCategory;
+			productReference = BCD6D55408F5D5D1E1EF3AF55F9A0975 /* libLLXYCategory.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		EBEFE3C946B09A6A51640904505B9C5C /* Pods-LLxyVIEW */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F21BE76DA12299F48B6E48717BC921A4 /* Build configuration list for PBXNativeTarget "Pods-LLxyVIEW" */;
+			buildConfigurationList = 6714AA92531E1ED02354298EF1EB9571 /* Build configuration list for PBXNativeTarget "Pods-LLxyVIEW" */;
 			buildPhases = (
-				4989012690FF7925EAEF67F997608B7C /* Headers */,
-				597AAD1211B16460E6505983FADBFCE0 /* Sources */,
-				509150E263DC69209F692BAF2177FD33 /* Frameworks */,
-				3040989FD2D13593E8782184D2CAFA1A /* Resources */,
+				CEF6E9EA8953D613B454B1F77CACE174 /* Headers */,
+				519C7F1BEF57C9C5FACA6627196F3343 /* Sources */,
+				F4E7BAD3C2B31B2EBE811A9AE7AF4107 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F584ACCD5B206B0FF6486F5F957D433B /* PBXTargetDependency */,
+			);
+			name = "Pods-LLxyVIEW";
+			productName = "Pods-LLxyVIEW";
+			productReference = 1F260F16D7A643D41B1D7BD3A2B7C5FB /* libPods-LLxyVIEW.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FB8DBA4C01AA6AE75B71B8841D78EF32 /* LLXYCategory-ZZBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8B85C5023CB5FF5E505DDE0AA2568C /* Build configuration list for PBXNativeTarget "LLXYCategory-ZZBundle" */;
+			buildPhases = (
+				45292DD265549FD5CA3C971383D9C757 /* Sources */,
+				532AD12A3ADD683A03B4B5D70710F41F /* Frameworks */,
+				D9A23EF0AF474EF5B297DE84E51D1FBA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-LLxyVIEW";
-			productName = "Pods-LLxyVIEW";
-			productReference = 73C975B9BCBA5D9B6399D0B05E3F0AE8 /* Pods_LLxyVIEW.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "LLXYCategory-ZZBundle";
+			productName = "LLXYCategory-ZZBundle";
+			productReference = 43EB9602AE8D94E62ADC60F15B389FFE /* ZZBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -292,80 +331,71 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = EF6CCB120AC20059D543D2C3E62ABDB7 /* Products */;
+			productRefGroup = 17A5BDAE285B5FF6E9EC5600AEEBA316 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				E625C82B20479405574D296FC4FB4DE3 /* LLXYCategory */,
+				FB8DBA4C01AA6AE75B71B8841D78EF32 /* LLXYCategory-ZZBundle */,
 				EBEFE3C946B09A6A51640904505B9C5C /* Pods-LLxyVIEW */,
-				5304EE1551BA78569363CD81484F126A /* Pods-LLxyVIEWTests */,
-				DA9A7F59C7EEC29E2E19AFB8714CFA18 /* Pods-LLxyVIEWUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		249A8BB144D0227709EAD510DCC9912C /* Resources */ = {
+		D9A23EF0AF474EF5B297DE84E51D1FBA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3040989FD2D13593E8782184D2CAFA1A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ACD5C2ABC3AF498A9E341A6E2B737EDB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C3720DAF2219DF388D21BDEDDC76A3D8 /* Assets.xcassets in Resources */,
+				A3481E6B4EBFB0661B6B205818EFDE02 /* Base.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		597AAD1211B16460E6505983FADBFCE0 /* Sources */ = {
+		45292DD265549FD5CA3C971383D9C757 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F06C82747A4F4AFBB35900108DAB13CC /* Pods-LLxyVIEW-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5D5BFF5473F4F2E16BC4FC9D524FEABC /* Sources */ = {
+		519C7F1BEF57C9C5FACA6627196F3343 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FD607017096FB674676F694F3F68473 /* Pods-LLxyVIEWTests-dummy.m in Sources */,
+				E155D23F621399BBA3CD995A5617D447 /* Pods-LLxyVIEW-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5225D98D8A1A93D085D782AB0E2EEF4 /* Sources */ = {
+		5338BC11D5D3C1B3A51A6967720CF523 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CF096EB7F91712FD7A6789BC34BFB59 /* Pods-LLxyVIEWUITests-dummy.m in Sources */,
+				EDD958A9256003EC50FBD31A21F6EADB /* LLXYCategory-dummy.m in Sources */,
+				B98D9940BB2B9B9C96EF573BB18FC891 /* ModuleA.m in Sources */,
+				777CAE9D48FDC573EE632C4CD07C7269 /* ModuleAViewController.m in Sources */,
+				44AEBF3F129B6627BB6B2CE676D93AAC /* ModuleBViewController.m in Sources */,
+				0F7A6F64F8EA6A247DF4400273C8F215 /* NSString+Color.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4B0EF33A1F67A0CB63010372A102EF29 /* PBXTargetDependency */ = {
+		F584ACCD5B206B0FF6486F5F957D433B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-LLxyVIEW";
-			target = EBEFE3C946B09A6A51640904505B9C5C /* Pods-LLxyVIEW */;
-			targetProxy = B16999D886CB9E9E7A5E7568A7CC874F /* PBXContainerItemProxy */;
+			name = LLXYCategory;
+			target = E625C82B20479405574D296FC4FB4DE3 /* LLXYCategory */;
+			targetProxy = 810003952F8F3B0344E249D9E3F296D3 /* PBXContainerItemProxy */;
 		};
-		F8B258F60B47398FFA7D7DD7E1ADBF7B /* PBXTargetDependency */ = {
+		F6128384A9BE70D3865D21311EFF6B20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-LLxyVIEW";
-			target = EBEFE3C946B09A6A51640904505B9C5C /* Pods-LLxyVIEW */;
-			targetProxy = BBF22BC34CE070BA1C4DAECE0677DA1A /* PBXContainerItemProxy */;
+			name = "LLXYCategory-ZZBundle";
+			target = FB8DBA4C01AA6AE75B71B8841D78EF32 /* LLXYCategory-ZZBundle */;
+			targetProxy = 3DEADC42EE3D1A937DDEBF01C39B54D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -434,118 +464,45 @@
 			};
 			name = Debug;
 		};
-		3B4BD95670B170E3A446831A9A161AF2 /* Release */ = {
+		410F7630892DCE48ACF268BB98BA9BA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6737A38EF9233C934A6BE0F95C2556F7 /* Pods-LLxyVIEWUITests.release.xcconfig */;
+			baseConfigurationReference = 8E4586AB9247B55F6F5AB42B0388FF40 /* LLXYCategory.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LLxyVIEWUITests/Pods-LLxyVIEWUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LLxyVIEWUITests/Pods-LLxyVIEWUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LLXYCategory";
+				INFOPLIST_FILE = "Target Support Files/LLXYCategory/ResourceBundle-ZZBundle-LLXYCategory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = ZZBundle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		49329F944CB447C596554D266C511A29 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE6FBC1FFC7331F27030FEEFEABB93A4 /* Pods-LLxyVIEW.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LLxyVIEW/Pods-LLxyVIEW-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LLxyVIEW/Pods-LLxyVIEW.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		9312877D2998B5013DA6ABBFB77D4F52 /* Release */ = {
+		61365B53D242F746EB80827F15FEC3E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0BA2D139196A250E35ADD5B585DAF2B3 /* Pods-LLxyVIEWTests.release.xcconfig */;
+			baseConfigurationReference = 8E4586AB9247B55F6F5AB42B0388FF40 /* LLXYCategory.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LLxyVIEWTests/Pods-LLxyVIEWTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LLxyVIEWTests/Pods-LLxyVIEWTests.modulemap";
+				GCC_PREFIX_HEADER = "Target Support Files/LLXYCategory/LLXYCategory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLXYCategory;
+				PRODUCT_NAME = LLXYCategory;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -607,117 +564,89 @@
 			};
 			name = Release;
 		};
-		CE345F079A41B74D35B36639BAB7F59B /* Release */ = {
+		C17C818D353B4085FF8A2B2404B3F7C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FE41CF5B675F93E7D7395342DE4CAB3 /* Pods-LLxyVIEW.release.xcconfig */;
+			baseConfigurationReference = B71C42BC6266891050229C702CCD783A /* Pods-LLxyVIEW.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LLxyVIEW/Pods-LLxyVIEW-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LLxyVIEW/Pods-LLxyVIEW.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDAB44626EE8927F9EAE06E34963F815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277C4FB4863941687B6F07A180383688 /* Pods-LLxyVIEW.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		FE60AE17B86F717F823D3181CBD6F1E2 /* Debug */ = {
+		E0A40E460633D178175A083B609EA1C0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 284E218E4376DD3E06815BFF7A0CCE5D /* Pods-LLxyVIEWTests.debug.xcconfig */;
+			baseConfigurationReference = 8E4586AB9247B55F6F5AB42B0388FF40 /* LLXYCategory.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LLxyVIEWTests/Pods-LLxyVIEWTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LLxyVIEWTests/Pods-LLxyVIEWTests.modulemap";
+				GCC_PREFIX_HEADER = "Target Support Files/LLXYCategory/LLXYCategory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLXYCategory;
+				PRODUCT_NAME = LLXYCategory;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		FE7FC70D2EE4CFFF2830C1BBEA654400 /* Debug */ = {
+		E3E921615AC02D58A4668F79ABABB78D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69404CF5FAE85B0C31CCD103F06F28AA /* Pods-LLxyVIEWUITests.debug.xcconfig */;
+			baseConfigurationReference = 8E4586AB9247B55F6F5AB42B0388FF40 /* LLXYCategory.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LLxyVIEWUITests/Pods-LLxyVIEWUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LLxyVIEWUITests/Pods-LLxyVIEWUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/LLXYCategory";
+				INFOPLIST_FILE = "Target Support Files/LLXYCategory/ResourceBundle-ZZBundle-LLXYCategory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = ZZBundle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -731,29 +660,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCADB2C8B59704F576B76361CC2F50A3 /* Build configuration list for PBXNativeTarget "Pods-LLxyVIEWTests" */ = {
+		6714AA92531E1ED02354298EF1EB9571 /* Build configuration list for PBXNativeTarget "Pods-LLxyVIEW" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE60AE17B86F717F823D3181CBD6F1E2 /* Debug */,
-				9312877D2998B5013DA6ABBFB77D4F52 /* Release */,
+				C17C818D353B4085FF8A2B2404B3F7C0 /* Debug */,
+				CDAB44626EE8927F9EAE06E34963F815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5EFF5A34E76B56997D324EBC2E5DCE7 /* Build configuration list for PBXNativeTarget "Pods-LLxyVIEWUITests" */ = {
+		D333D755EF0F9E58388BF1BAF045D38B /* Build configuration list for PBXNativeTarget "LLXYCategory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FE7FC70D2EE4CFFF2830C1BBEA654400 /* Debug */,
-				3B4BD95670B170E3A446831A9A161AF2 /* Release */,
+				61365B53D242F746EB80827F15FEC3E0 /* Debug */,
+				E0A40E460633D178175A083B609EA1C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F21BE76DA12299F48B6E48717BC921A4 /* Build configuration list for PBXNativeTarget "Pods-LLxyVIEW" */ = {
+		EE8B85C5023CB5FF5E505DDE0AA2568C /* Build configuration list for PBXNativeTarget "LLXYCategory-ZZBundle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49329F944CB447C596554D266C511A29 /* Debug */,
-				CE345F079A41B74D35B36639BAB7F59B /* Release */,
+				410F7630892DCE48ACF268BB98BA9BA7 /* Debug */,
+				E3E921615AC02D58A4668F79ABABB78D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -6,7 +6,9 @@
 //  Copyright © 2019年 lxy. All rights reserved.
 //
 
+#import <ModuleBViewController.h>
 #import "ViewController.h"
+#import <ModuleAViewController.h>
 
 @interface ViewController ()
 
@@ -16,8 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    ModuleBViewController * moduleB = [[ModuleBViewController alloc] init];
+    [self presentViewController:moduleB animated:YES completion:nil];
+}
 
 @end

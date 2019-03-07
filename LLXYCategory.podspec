@@ -91,10 +91,10 @@ podku
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "LLxyVIEW/LLXYCategory/*.{h,m}"
+  spec.source_files  = "LLxyVIEW/LLXYCategory/**/*.{h,m}"
   spec.exclude_files = "LLxyVIEW/LLXYCategory/Exclude"
 
-  spec.public_header_files = "LLxyVIEW/LLXYCategory/*.h"
+  spec.public_header_files = "LLxyVIEW/LLXYCategory/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
