@@ -1,0 +1,6 @@
+framework module Pods_LLxyVIEW {
+  umbrella header "Pods-LLxyVIEW-umbrella.h"
+
+  export *
+  module * { export * }
+}
